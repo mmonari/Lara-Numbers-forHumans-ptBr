@@ -1,6 +1,6 @@
-# Lara-Numbers-forHumans-ptBr
+# Laravel Numbers::forHumans() pt_BR locale wrapper
 
-Fucntion 'wrapper' para o método Number::forHumans() para português do Brasil.
+A function 'wrapper' that takes in the string output from the original Number::forHumans() in laravel 10.33+ and returns it in pt_BR locale.
 
 /**
 * Convert the given Number::forHumans to ordinal pt_BR locale.
