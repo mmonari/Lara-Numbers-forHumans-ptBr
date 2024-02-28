@@ -25,6 +25,7 @@ if(!function_exists('forHumansPtBr')){
             'quadrillion' => 'quadrilhões',
 
         ];
+        // Abreviation format
         $translationsAbreviation = [
             'thousand' => 'mil',
             'million'  => 'mi',
@@ -32,6 +33,14 @@ if(!function_exists('forHumansPtBr')){
             'trillion' => 'tri',
             'quadrillion' => 'quadri',
         ];
+        // and another option could be:
+        // $translationsAbreviation = [
+        //     'thousand' => 'K',
+        //     'million'  => 'M',
+        //     'billion'  => 'B',
+        //     'trillion' => 'T',
+        //     'quadrillion' => 'Q',
+        // ];
         
         preg_match('/([\d.]+)\s*([a-z]+)/i', $formattedNumber, $matches);
 
