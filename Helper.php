@@ -4,7 +4,7 @@ if(!function_exists('forHumansPtBr')){
     /**
     * Convert the given Number::forHumans to ordinal pt_BR locale.
     *
-    * @param  string  $output from Number::forHumans, already formatted in English ie.: '10 thousand','1 million'
+    * @param  string  $formattedNumber from Number::forHumans, already formatted in English ie.: '10 thousand','1 million'
     * @param  ?bool  $abreviation returns an abreviation of the number, ie.: '10 mil','1 mi','1 bi'    
     * @return string
     */
